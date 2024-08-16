@@ -1,8 +1,11 @@
+import Footer from "../Shared/Footer";
+import Navbar from "../Shared/Navbar";
 
 const Home = () => {
     return (
-        <div className="text-red-500">
-            THIS IS HOME PAGE
+        <div>
+            <Navbar /> <br />
+            <Footer />
         </div>
     );
 };
